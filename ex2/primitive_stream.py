@@ -82,7 +82,7 @@ def fill_queue(rabbitmq_params, queue_name):
         message_json = json.dumps({'text': missatge})
         channel.basic_publish(exchange='', routing_key=queue_name, body=message_json)
 
-    print(f"Missatge '{missatge}' enviat 100 cops a la cua '{queue_name}'")
+    print(f"Missatge '{missatge}' enviat 20000 cops a la cua '{queue_name}'")
 
     connection.close()
 

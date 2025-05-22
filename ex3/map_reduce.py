@@ -1,7 +1,6 @@
 import boto3
 import lithops
 import re
-import os
 
 iterdata = ['s3://task2-3-texts/text1.csv', 's3://task2-3-texts/text2.csv', 's3://task2-3-texts/text3.csv']
 insults = ['tonto', 'idiota', 'mierda', 'gilipollas', 'mamabicho', 'cabron']
